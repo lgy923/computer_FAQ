@@ -1,0 +1,36 @@
+1、安装jdk
+
+2、在系统变量中新建变量名:JAVA_HOME    变量值:jdk安装的路径，如：D:\Program Files\Java\jdk1.7.0_79
+
+3、打开Path，在最前面添加：    %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+
+4、在用户变量中新建:CLASSPATH    变量值:   .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+5、在cmd命令中输入：java -version
+                    javac -version     会出现一个界面
+
+
+
+
+
+
+
+
+
+
+6、安装Tomcat
+
+7、在系统变量中新建变量名:CATALINA_BASE 变量值:tomcat安装的路径，如：D:\Program Files\Apache Software Foundation\Tomcat 7.0
+
+8、在系统变量中新建变量名:CATALINA_HOME 变量值:tomcat安装的路径，如：D:\Program Files\Apache Software Foundation\Tomcat 7.0
+
+9、打开D:\Program Files\Apache Software Foundation\Tomcat 7.0\bin 路径下的文件Tomcat7w ,进入页面点击star
+
+10、进入浏览器，在地址栏中输入：http://localhost:8080  回车
+
+11、将进入一个Tomcat的页面，即Tomcat安装配置完毕！
+
+
+注：所有变量值都将在英文的输入条件下进行！！！
+
+
+

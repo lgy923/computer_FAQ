@@ -1,0 +1,32 @@
+方案一：
+手动设置DNS（说明您的使用的DNS有特殊设置，请保存设置后再进行操作）
+1、打开控制面板 -》 网络连接 -》 打开本地连接 -》 属性
+2、双击Internet协议（TCP/IPv4） -》 选择自动获取IP地址和地址使用下面的DNS服务器地址 -》 输入首选DNS服务器为“114.114.114.114”，备用DNS服务器为“8.8.8.8” -》 点击确定 
+
+方案二：
+清楚IE缓存
+1、打开IE浏览器 -》 点击工具 -》 Internet选项 -》 删除
+2、勾选所有选项 -》 点击确定 -》 再确定窗口中点击确定
+
+方案三：注册IE组件
+1、点击【开始】菜单 -》 在搜索中输入“cmd” -》 按键盘enter键
+2、在弹出的黑色窗口中，按顺序输入一下内容，按键盘enter键，再逐一完成一下全部部件注册：
+regsvr32 atl.dll
+regsvr32 shdocvw.dll
+regsvr32 actxprxy.dll
+regsvr32 urlmon.dll
+regsvr32 browseui.dll
+regsvr32 oleaut32.dll
+regsvr32 shell32.dll
+regsvr32 jscript.dll
+regsvr32 vbscript.dll
+regsvr32 mshtmled.dll
+regsvr32 CLBCATQ.DLL
+regsvr32 cscui.dll
+regsvr32 MLANG.DLL
+regsvr32 stobject.dll
+regsvr32 WINHTTP.DLL
+regsvr32 msxml.dll
+regsvr32 query.dll
+regsvr32 jscript9.dll
+regsvr32 hlink.dll

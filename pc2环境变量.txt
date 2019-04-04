@@ -1,0 +1,9 @@
+classpath:     C:\Program Files\Java\jdk1.7.0_15\lib;D:\pc2;
+
+include:       C:\Program Files\Microsoft Visual Studio\VC98\Include;
+
+lib:           C:\Program Files\Microsoft Visual Studio\VC98\Lib;
+
+               C:\Program Files\Microsoft Visual Studio\Common\MSDev98;
+
+path:	       C:\Program Files\Java\jdk1.7.0_15\bin;D:\pc2\bin;C:\Program Files\Microsoft Visual Studio\VC98\Bin;

@@ -1,0 +1,26 @@
+打开DOS命令窗口，不要登录，直接输入下面：sqlplus sys/tiger as sysdba
+
+打开，以dba方式进入sys账户。
+
+然后在DOS命令窗口中输入：alter user scott account unlock;  
+
+用户已更改
+
+SQL> commit;
+
+提交完成
+
+SQL> conn scott/tiger
+
+更改scott口令
+
+新口令：tiger
+
+重新键入新口令：tiger
+
+口令已更改
+
+已连接。
+
+
+注意：有分号的，分号不能省略！！！

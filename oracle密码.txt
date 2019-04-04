@@ -1,0 +1,7 @@
+ORACLE的默认账号及密码有以下三种：
+
+      1.用户名:sys密码:change_on_install
+
+      2.用户名:system密码:manager
+
+      3.用户名:scott密码:tiger
